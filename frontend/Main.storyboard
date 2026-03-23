@@ -1,0 +1,25 @@
+<xml version="1.0" encoding="UTF-8"?>
+<document>
+	<scene sceneID="A2D5FFB5-E68C-4B8B-8BAD-E406149BAE56">
+		<viewController id="7F3B2398-B2CA-4F55-A914-0B505659BF1C" customClass="UIViewController" customModule="ipa_multiplayer_game" customModuleProvider="targeted">
+			<view key="view" contentMode="scaleToFill" id="9D7F8753-245B-4C4F-9BE8-C6444BBA5C38">
+				<subviews>
+					<textField placeholder="Username" id="1">
+						<rect key="frame" x="20" y="100" width="280" height="34"/>
+					</textField>
+					<textField placeholder="Password" id="2" secureTextEntry="YES">
+						<rect key="frame" x="20" y="150" width="280" height="34"/>
+					</textField>
+					<button id="loginButton">
+						<rect key="frame" x="20" y="200" width="130" height="34"/>
+						<state key="normal" title="Login"/>
+					</button>
+					<button id="registerButton">
+						<rect key="frame" x="170" y="200" width="130" height="34"/>
+						<state key="normal" title="Register"/>
+					</button>
+				</subviews>
+			</view>
+		</viewController>
+	</scene>
+</document>
